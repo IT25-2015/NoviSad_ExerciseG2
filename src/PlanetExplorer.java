@@ -67,6 +67,7 @@ public class PlanetExplorer {
 	
 	public void moveBack(){
 		if(direction.equals("n")){
+			if(roverY == y)
 				roverY--;
 		}else if(direction.equals("e")){
 			if(roverX == 0)
