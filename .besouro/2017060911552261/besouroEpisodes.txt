@@ -234,3 +234,7 @@
 1497003936583 test-addition 1 48 true
 1497003936584 test-addition 2 48 true
 1497003936585 test-addition 1 48 true
+1497004002942 test-addition 2 50 true
+1497004002943 test-addition 1 50 true
+1497004002944 test-addition 2 50 true
+1497004002945 test-addition 1 50 true

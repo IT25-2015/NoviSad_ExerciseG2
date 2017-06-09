@@ -75,6 +75,8 @@ public class PlanetExplorer {
 				direction = "s";
 			else if(direction.equals("s"))
 				direction = "w";
+			else if(direction.equals("w"))
+				direction = "n";
 			break;
 		case 'l' :
 			if(direction.equals("n"))
