@@ -374,3 +374,7 @@
 1497004547535 test-first 3 537 true
 1497004547536 test-first 3 537 true
 1497004547537 test-first 3 537 true
+1497004690686 test-addition 2 135 true
+1497004690687 test-addition 1 135 true
+1497004690688 test-addition 2 135 true
+1497004690689 test-addition 1 135 true

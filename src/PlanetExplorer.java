@@ -66,6 +66,11 @@ public class PlanetExplorer {
 					roverY = 0;
 				else
 					roverY--;
+		}else if(direction.equals("e")){
+			if(roverX == 0)
+				roverX = x;
+			else 
+				roverX--;
 		}
 	}
 
