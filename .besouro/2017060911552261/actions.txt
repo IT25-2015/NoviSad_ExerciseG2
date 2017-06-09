@@ -88,3 +88,11 @@ EditAction 1497003214101 PlanetExplorer.java 2205 8 13 0
 UnitTestCaseAction 1497003219066 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1497003219067 TestPlanetExplorer.java FAIL
 EditAction 1497003263990 PlanetExplorer.java 2205 8 13 0
+UnitTestCaseAction 1497003268881 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497003268882 TestPlanetExplorer.java FAIL
+RefactoringAction 1497003293985 TestPlanetExplorer.java ADD void test_ FIELD
+RefactoringAction 1497003296002 TestPlanetExplorer.java RENAME test_=>void test_rotate FIELD
+RefactoringAction 1497003298015 TestPlanetExplorer.java RENAME test_rotate=>void test_rotate_ FIELD
+RefactoringAction 1497003301035 TestPlanetExplorer.java RENAME test_rotate_=>void test_rotate_right FIELD
+RefactoringAction 1497003302059 TestPlanetExplorer.java RENAME test_rotate_right=>void test_rotate_right() METHOD
+EditAction 1497003338226 TestPlanetExplorer.java 765 3 7 3
