@@ -137,3 +137,11 @@ RefactoringAction 1497003738334 TestPlanetExplorer.java RENAME test_rotate_3x_le
 RefactoringAction 1497003740874 TestPlanetExplorer.java RENAME test_rotate_()=>void test_rotate_full_cicle() METHOD
 RefactoringAction 1497003749429 TestPlanetExplorer.java RENAME test_rotate_full_cicle()=>void test_rotate_full_cicle_left() METHOD
 EditAction 1497003756607 TestPlanetExplorer.java 1541 6 12 6
+UnitTestCaseAction 1497003760366 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497003760367 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1497003801232 TestPlanetExplorer.java OK
+UnitTestSessionAction 1497003801238 TestPlanetExplorer.java OK
+RefactoringAction 1497003820552 TestPlanetExplorer.java ADD void test_rotate_twice_left()/2 METHOD
+RefactoringAction 1497003823585 TestPlanetExplorer.java RENAME test_rotate_twice_left()/2=>void test_rotate_twice_() METHOD
+RefactoringAction 1497003825114 TestPlanetExplorer.java RENAME test_rotate_twice_()=>void test_rotate_twice_right() METHOD
+EditAction 1497003833781 TestPlanetExplorer.java 1735 7 14 7

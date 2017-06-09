@@ -222,3 +222,7 @@
 1497003726374 test-addition 1 70 true
 1497003726375 test-addition 2 70 true
 1497003726376 test-addition 1 70 true
+1497003801238 test-addition 2 67 true
+1497003801239 test-addition 1 67 true
+1497003801240 test-addition 2 67 true
+1497003801241 test-addition 1 67 true
