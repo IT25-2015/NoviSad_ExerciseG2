@@ -311,3 +311,17 @@ UnitTestCaseAction 1497005496045 TestPlanetExplorer.java OK
 UnitTestSessionAction 1497005496047 TestPlanetExplorer.java OK
 RefactoringAction 1497005514379 TestPlanetExplorer.java ADD void test_move_forth_south() METHOD
 EditAction 1497005522146 TestPlanetExplorer.java 3288 14 37 14
+UnitTestCaseAction 1497005525867 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497005525870 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1497005539247 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497005539249 TestPlanetExplorer.java FAIL
+RefactoringAction 1497005564996 TestPlanetExplorer.java REMOVE test_move_back_south() METHOD
+RefactoringAction 1497005564998 TestPlanetExplorer.java REMOVE test_move_forth_south() METHOD
+RefactoringAction 1497005565008 TestPlanetExplorer.java REMOVE test_move_forth_west() METHOD
+RefactoringAction 1497005568532 TestPlanetExplorer.java ADD void test_move_back_south() METHOD
+RefactoringAction 1497005568535 TestPlanetExplorer.java ADD void test_move_forth_west() METHOD
+RefactoringAction 1497005583142 TestPlanetExplorer.java ADD void test_move FIELD
+RefactoringAction 1497005584672 TestPlanetExplorer.java RENAME test_move=>void test_move_ FIELD
+RefactoringAction 1497005601226 TestPlanetExplorer.java RENAME test_move_=>void test_move_back_west FIELD
+RefactoringAction 1497005603288 TestPlanetExplorer.java RENAME test_move_back_west=>void test_move_back_west() METHOD
+EditAction 1497005669488 TestPlanetExplorer.java 3507 14 36 14
