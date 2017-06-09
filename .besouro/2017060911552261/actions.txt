@@ -232,3 +232,8 @@ RefactoringAction 1497004417606 TestPlanetExplorer.java RENAME test_move_forth=>
 RefactoringAction 1497004419635 TestPlanetExplorer.java RENAME test_move_forth_=>void test_move_forth_east FIELD
 RefactoringAction 1497004420671 TestPlanetExplorer.java RENAME test_move_forth_east=>void test_move_forth_east() METHOD
 EditAction 1497004465007 TestPlanetExplorer.java 2342 10 21 10
+UnitTestCaseAction 1497004470427 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497004470429 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1497004522737 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497004522738 TestPlanetExplorer.java FAIL
+EditAction 1497004528443 TestPlanetExplorer.java 2342 10 21 10
