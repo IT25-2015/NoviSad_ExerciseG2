@@ -403,3 +403,6 @@
 1497005190999 test-first 3 484 true
 1497005191000 test-first 3 484 true
 1497005191001 test-last 1 484 false
+1497005252722 test-addition 1 48 true
+1497005252723 test-addition 1 48 true
+1497005260743 regression 1 0 true

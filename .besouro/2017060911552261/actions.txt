@@ -295,3 +295,8 @@ RefactoringAction 1497005203827 TestPlanetExplorer.java ADD void test_move_back_
 RefactoringAction 1497005210860 TestPlanetExplorer.java RENAME test_move_back_south()/2=>void test_move_back_west() METHOD
 RefactoringAction 1497005215909 TestPlanetExplorer.java RENAME test_move_back_west()=>void test_move_forth_west() METHOD
 EditAction 1497005245213 TestPlanetExplorer.java 3292 13 33 13
+UnitTestCaseAction 1497005252711 TestPlanetExplorer.java OK
+UnitTestSessionAction 1497005252722 TestPlanetExplorer.java OK
+UnitTestCaseAction 1497005260741 TestPlanetExplorer.java OK
+UnitTestSessionAction 1497005260743 TestPlanetExplorer.java OK
+EditAction 1497005309124 TestPlanetExplorer.java 3292 13 33 13
