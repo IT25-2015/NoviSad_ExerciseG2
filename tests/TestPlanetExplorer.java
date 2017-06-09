@@ -87,4 +87,13 @@ public class TestPlanetExplorer {
 		
 		assertEquals("", "(1,0,e)", pe.executeCommand("f"));
 	}
+	
+	@Test
+	public void test_move_back_east() throws PlanetExplorerException{
+		PlanetExplorer pe = new PlanetExplorer(3,3,null);
+		pe.setRoverX(1);
+		pe.executeCommand("r");
+		
+		assertEquals("", "(0,0,e)", pe.executeCommand("b"));
+	}
 }

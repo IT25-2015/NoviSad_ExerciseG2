@@ -240,3 +240,9 @@ EditAction 1497004528443 TestPlanetExplorer.java 2342 10 21 10
 UnitTestCaseAction 1497004535010 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1497004535011 TestPlanetExplorer.java FAIL
 EditAction 1497004543443 TestPlanetExplorer.java 2342 10 21 10
+UnitTestCaseAction 1497004547401 TestPlanetExplorer.java OK
+UnitTestSessionAction 1497004547402 TestPlanetExplorer.java OK
+RefactoringAction 1497004555410 TestPlanetExplorer.java ADD void test_move_forth_east()/2 METHOD
+RefactoringAction 1497004560447 TestPlanetExplorer.java RENAME test_move_forth_east()/2=>void test_move__east() METHOD
+RefactoringAction 1497004561490 TestPlanetExplorer.java RENAME test_move__east()=>void test_move_back_east() METHOD
+EditAction 1497004577959 TestPlanetExplorer.java 2576 11 25 11
