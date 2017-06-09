@@ -206,3 +206,29 @@ EditAction 1497004340569 TestPlanetExplorer.java 2122 10 21 10
 UnitTestCaseAction 1497004344540 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1497004344591 TestPlanetExplorer.java FAIL
 EditAction 1497004380089 PlanetExplorer.java 2791 9 14 0
+UnitTestCaseAction 1497004384800 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497004384803 TestPlanetExplorer.java FAIL
+RefactoringAction 1497004396376 TestPlanetExplorer.java REMOVE test_rotate_3x_right() METHOD
+RefactoringAction 1497004396384 TestPlanetExplorer.java REMOVE test_rotate_twice_right() METHOD
+RefactoringAction 1497004396388 TestPlanetExplorer.java REMOVE test_rotate_right() METHOD
+RefactoringAction 1497004396388 TestPlanetExplorer.java REMOVE test_rotate_twice_left() METHOD
+RefactoringAction 1497004396389 TestPlanetExplorer.java REMOVE test_move_back_north() METHOD
+RefactoringAction 1497004396390 TestPlanetExplorer.java REMOVE test_rotate_3x_left() METHOD
+RefactoringAction 1497004396391 TestPlanetExplorer.java REMOVE test_rotate_full_cicle_right() METHOD
+RefactoringAction 1497004396392 TestPlanetExplorer.java REMOVE test_rotate_full_cicle_left() METHOD
+RefactoringAction 1497004396393 TestPlanetExplorer.java REMOVE test_rotate_left() METHOD
+RefactoringAction 1497004398914 TestPlanetExplorer.java ADD void test_rotate_right() METHOD
+RefactoringAction 1497004398922 TestPlanetExplorer.java ADD void test_rotate_left() METHOD
+RefactoringAction 1497004398923 TestPlanetExplorer.java ADD void test_rotate_twice_left() METHOD
+RefactoringAction 1497004398925 TestPlanetExplorer.java ADD void test_rotate_3x_left() METHOD
+RefactoringAction 1497004398926 TestPlanetExplorer.java ADD void test_rotate_full_cicle_left() METHOD
+RefactoringAction 1497004398927 TestPlanetExplorer.java ADD void test_rotate_twice_right() METHOD
+RefactoringAction 1497004398928 TestPlanetExplorer.java ADD void test_rotate_3x_right() METHOD
+RefactoringAction 1497004398929 TestPlanetExplorer.java ADD void test_rotate_full_cicle_right() METHOD
+RefactoringAction 1497004412041 TestPlanetExplorer.java ADD void test FIELD
+RefactoringAction 1497004414562 TestPlanetExplorer.java RENAME test=>void test_move_ FIELD
+RefactoringAction 1497004416585 TestPlanetExplorer.java RENAME test_move_=>void test_move_forth FIELD
+RefactoringAction 1497004417606 TestPlanetExplorer.java RENAME test_move_forth=>void test_move_forth_ FIELD
+RefactoringAction 1497004419635 TestPlanetExplorer.java RENAME test_move_forth_=>void test_move_forth_east FIELD
+RefactoringAction 1497004420671 TestPlanetExplorer.java RENAME test_move_forth_east=>void test_move_forth_east() METHOD
+EditAction 1497004465007 TestPlanetExplorer.java 2342 10 21 10
