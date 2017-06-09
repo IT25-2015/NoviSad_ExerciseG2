@@ -218,3 +218,7 @@
 1497003647098 test-addition 1 56 true
 1497003647099 test-addition 2 56 true
 1497003647100 test-addition 1 56 true
+1497003726373 test-addition 2 70 true
+1497003726374 test-addition 1 70 true
+1497003726375 test-addition 2 70 true
+1497003726376 test-addition 1 70 true

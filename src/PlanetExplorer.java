@@ -77,6 +77,8 @@ public class PlanetExplorer {
 				direction = "w";
 			else if(direction.equals("w"))
 				direction = "s";
+			else if(direction.equals("s"))
+				direction = "e";
 		}
 		
 	}
