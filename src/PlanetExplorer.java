@@ -31,6 +31,7 @@ public class PlanetExplorer {
 			switch(i){
 			case 'f' : moveForth(); break;
 			case 'b' : moveBack(); break;
+			case 'r' : rotate(i);break;
 			}
 		}
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
@@ -64,6 +65,14 @@ public class PlanetExplorer {
 		}
 	}
 
+	public void rotate(char i){
+		switch(i){
+		case 'r' :
+			if(direction.equals("n"))
+				direction = "e";
+		}
+	}
+	
 	public int getRoverX() {
 		return roverX;
 	}

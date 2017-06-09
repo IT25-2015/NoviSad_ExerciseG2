@@ -96,3 +96,12 @@ RefactoringAction 1497003298015 TestPlanetExplorer.java RENAME test_rotate=>void
 RefactoringAction 1497003301035 TestPlanetExplorer.java RENAME test_rotate_=>void test_rotate_right FIELD
 RefactoringAction 1497003302059 TestPlanetExplorer.java RENAME test_rotate_right=>void test_rotate_right() METHOD
 EditAction 1497003338226 TestPlanetExplorer.java 765 3 7 3
+UnitTestCaseAction 1497003343652 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497003343656 TestPlanetExplorer.java FAIL
+RefactoringAction 1497003360506 PlanetExplorer.java ADD void rotate() METHOD
+RefactoringAction 1497003371037 PlanetExplorer.java RENAME rotate()=>void rotate(char) METHOD
+UnitTestCaseAction 1497003441714 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497003441715 TestPlanetExplorer.java FAIL
+RefactoringAction 1497003459304 TestPlanetExplorer.java ADD void test_rotate_right()/2 METHOD
+RefactoringAction 1497003464827 TestPlanetExplorer.java RENAME test_rotate_right()/2=>void test_rotate_left() METHOD
+EditAction 1497003474739 TestPlanetExplorer.java 953 4 9 4
