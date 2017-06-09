@@ -57,3 +57,11 @@ RefactoringAction 1497002822966 PlanetExplorerException.java RENAME Planet=>Stri
 RefactoringAction 1497002824480 PlanetExplorerException.java RENAME PlanetExplorerException=>String PlanetExplorerException() METHOD
 EditAction 1497002831968 PlanetExplorerException.java 118 1 1 0
 EditAction 1497002862714 PlanetExplorer.java 1787 3 8 0
+CompilationAction 1497002865407 TestPlanetExplorer.java
+CompilationAction 1497002944088 TestPlanetExplorer.java
+CompilationAction 1497002944384 TestPlanetExplorer.java
+UnitTestCaseAction 1497002947583 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497002947585 TestPlanetExplorer.java FAIL
+RefactoringAction 1497002963591 PlanetExplorer.java ADD void moveBack FIELD
+RefactoringAction 1497002964620 PlanetExplorer.java RENAME moveBack=>void moveBack() METHOD
+EditAction 1497003018957 PlanetExplorer.java 1940 4 9 0

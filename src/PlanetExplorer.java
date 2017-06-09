@@ -30,6 +30,7 @@ public class PlanetExplorer {
 		for(char i : niz){
 			switch(i){
 			case 'f' : moveForth(); break;
+			case 'b' : moveBack(); break;
 			}
 		}
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
@@ -51,6 +52,15 @@ public class PlanetExplorer {
 				roverY = 0;
 			else 
 				roverY++;
+		}
+	}
+	
+	public void moveBack(){
+		if(direction.equals("n")){
+			if(roverY == 0)
+				roverY = y;
+			else
+				roverY--;
 		}
 	}
 }
