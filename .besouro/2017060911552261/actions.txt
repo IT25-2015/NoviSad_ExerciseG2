@@ -15,3 +15,6 @@ RefactoringAction 1497002235453 TestPlanetExplorer.java ADD void PlanetExplorerE
 RefactoringAction 1497002250513 TestPlanetExplorer.java MOVE PlanetExplorerException()=>void test_move_forth_north() null
 EditAction 1497002363635 TestPlanetExplorer.java 337 1 2 1
 EditAction 1497002369826 TestPlanetExplorer.java 338 1 0 0
+CompilationAction 1497002372770 TestPlanetExplorer.java
+CompilationAction 1497002376017 TestPlanetExplorer.java
+EditAction 1497002382525 PlanetExplorer.java 1255 2 1 0
