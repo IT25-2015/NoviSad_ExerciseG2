@@ -113,3 +113,11 @@ RefactoringAction 1497003486953 TestPlanetExplorer.java REMOVE test_rotate_left(
 RefactoringAction 1497003489970 TestPlanetExplorer.java ADD void test_rotate_right() METHOD
 RefactoringAction 1497003489972 TestPlanetExplorer.java ADD void test_rotate_left() METHOD
 EditAction 1497003493229 TestPlanetExplorer.java 957 3 6 3
+UnitTestCaseAction 1497003497023 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497003497024 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1497003575121 TestPlanetExplorer.java OK
+UnitTestSessionAction 1497003575122 TestPlanetExplorer.java OK
+RefactoringAction 1497003591051 TestPlanetExplorer.java ADD void test_rotate_left()/2 METHOD
+RefactoringAction 1497003594572 TestPlanetExplorer.java RENAME test_rotate_left()/2=>void test_rotate__left() METHOD
+RefactoringAction 1497003597100 TestPlanetExplorer.java RENAME test_rotate__left()=>void test_rotate_twice_left() METHOD
+EditAction 1497003605927 TestPlanetExplorer.java 1150 4 8 4
