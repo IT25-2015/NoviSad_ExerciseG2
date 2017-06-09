@@ -1,0 +1,16 @@
+FileOpenedAction 1497002122582 TestPlanetExplorer.java 174 1 1 0
+RefactoringAction 1497002128554 TestPlanetExplorer.java REMOVE test_executeCommand() METHOD
+RefactoringAction 1497002142630 TestPlanetExplorer.java ADD void test FIELD
+RefactoringAction 1497002184152 TestPlanetExplorer.java RENAME test=>void test_ FIELD
+RefactoringAction 1497002185668 TestPlanetExplorer.java RENAME test_=>void test_move FIELD
+RefactoringAction 1497002186685 TestPlanetExplorer.java RENAME test_move=>void test_move_ FIELD
+RefactoringAction 1497002188698 TestPlanetExplorer.java RENAME test_move_=>void test_move_forth FIELD
+RefactoringAction 1497002189710 TestPlanetExplorer.java RENAME test_move_forth=>void test_move_forth_ FIELD
+RefactoringAction 1497002190735 TestPlanetExplorer.java RENAME test_move_forth_=>void test_move_forth_n FIELD
+RefactoringAction 1497002192752 TestPlanetExplorer.java RENAME test_move_forth_n=>void test_move_forth_north FIELD
+RefactoringAction 1497002193767 TestPlanetExplorer.java RENAME test_move_forth_north=>void test_move_forth_north() METHOD
+RefactoringAction 1497002213912 TestPlanetExplorer.java ADD void PlanetExplorerException() METHOD
+RefactoringAction 1497002223432 TestPlanetExplorer.java REMOVE PlanetExplorerException() METHOD
+RefactoringAction 1497002235453 TestPlanetExplorer.java ADD void PlanetExplorerException() METHOD
+RefactoringAction 1497002250513 TestPlanetExplorer.java MOVE PlanetExplorerException()=>void test_move_forth_north() null
+EditAction 1497002363635 TestPlanetExplorer.java 337 1 2 1
