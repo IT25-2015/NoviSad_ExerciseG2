@@ -12,7 +12,6 @@ public class TestPlanetExplorer {
 	@Test
 	public void test_move_forth_north() throws PlanetExplorerException{
 		PlanetExplorer pe = new PlanetExplorer(3,3,null);
-		pe.setRoverY(2);
 		
 		assertEquals("", "(0,1,n)", pe.executeCommand("f"));
 	}
