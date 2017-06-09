@@ -63,4 +63,23 @@ public class PlanetExplorer {
 				roverY--;
 		}
 	}
+
+	public int getRoverX() {
+		return roverX;
+	}
+
+	public void setRoverX(int roverX) {
+		this.roverX = roverX;
+	}
+
+	public int getRoverY() {
+		return roverY;
+	}
+
+	
+
+	public void setRoverY(int roverY2) {
+		// TODO Auto-generated method stub
+		this.roverY = roverY;
+	}
 }

@@ -65,3 +65,14 @@ UnitTestSessionAction 1497002947585 TestPlanetExplorer.java FAIL
 RefactoringAction 1497002963591 PlanetExplorer.java ADD void moveBack FIELD
 RefactoringAction 1497002964620 PlanetExplorer.java RENAME moveBack=>void moveBack() METHOD
 EditAction 1497003018957 PlanetExplorer.java 1940 4 9 0
+CompilationAction 1497003021707 TestPlanetExplorer.java
+RefactoringAction 1497003042116 PlanetExplorer.java ADD int getRoverX() METHOD
+RefactoringAction 1497003042121 PlanetExplorer.java ADD void setRoverX(int) METHOD
+RefactoringAction 1497003042122 PlanetExplorer.java ADD int getRoverY() METHOD
+RefactoringAction 1497003042123 PlanetExplorer.java ADD void setRoverY(int) METHOD
+CompilationAction 1497003053339 TestPlanetExplorer.java
+CompilationAction 1497003053628 TestPlanetExplorer.java
+CompilationAction 1497003086080 TestPlanetExplorer.java
+RefactoringAction 1497003110972 PlanetExplorer.java ADD void setRoverY(int)/2 METHOD
+RefactoringAction 1497003123734 PlanetExplorer.java REMOVE setRoverY(int)/2 METHOD
+EditAction 1497003124875 PlanetExplorer.java 2205 8 13 0
