@@ -132,6 +132,10 @@ public class TestPlanetExplorer {
 		assertEquals("", "(1,0,w)", pe.executeCommand("b"));
 	}
 	
-	
+	@Test(expected = PlanetExplorerException.class)
+	public void test_exception() throws PlanetExplorerException{
+		PlanetExplorer pe = new PlanetExplorer(3,3,null);
+		pe.executeCommand("k");
+	}
 	
 }

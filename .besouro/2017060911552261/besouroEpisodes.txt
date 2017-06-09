@@ -432,3 +432,7 @@
 1497006037233 test-addition 2 163 true
 1497006037234 test-addition 2 163 true
 1497006037235 test-addition 1 163 true
+1497006104705 test-addition 2 52 true
+1497006104706 test-addition 1 52 true
+1497006104707 test-addition 2 52 true
+1497006104708 test-addition 1 52 true

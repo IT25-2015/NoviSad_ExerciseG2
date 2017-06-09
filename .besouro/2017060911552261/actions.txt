@@ -349,3 +349,9 @@ UnitTestCaseAction 1497006037227 TestPlanetExplorer.java OK
 UnitTestSessionAction 1497006037228 TestPlanetExplorer.java OK
 RefactoringAction 1497006051749 TestPlanetExplorer.java ADD void test_move_forth_south() METHOD
 EditAction 1497006055960 TestPlanetExplorer.java 3503 16 43 16
+UnitTestCaseAction 1497006059643 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497006059645 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1497006104703 TestPlanetExplorer.java OK
+UnitTestSessionAction 1497006104705 TestPlanetExplorer.java OK
+RefactoringAction 1497006339447 TestPlanetExplorer.java ADD void test_exception() METHOD
+EditAction 1497006373548 TestPlanetExplorer.java 3693 17 45 16
