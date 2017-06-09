@@ -25,7 +25,7 @@ public class PlanetExplorer {
 		this.direction = "n";
 	}
 	
-	public String executeCommand(String command){
+	public String executeCommand(String command) throws PlanetExplorerException{
 		char[] niz = command.toCharArray();
 		for(char i : niz){
 			switch(i){

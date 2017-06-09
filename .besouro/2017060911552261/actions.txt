@@ -56,3 +56,4 @@ RefactoringAction 1497002817958 PlanetExplorerException.java ADD String Planet F
 RefactoringAction 1497002822966 PlanetExplorerException.java RENAME Planet=>String PlanetExplorerException FIELD
 RefactoringAction 1497002824480 PlanetExplorerException.java RENAME PlanetExplorerException=>String PlanetExplorerException() METHOD
 EditAction 1497002831968 PlanetExplorerException.java 118 1 1 0
+EditAction 1497002862714 PlanetExplorer.java 1787 3 8 0
