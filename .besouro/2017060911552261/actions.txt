@@ -325,3 +325,8 @@ RefactoringAction 1497005584672 TestPlanetExplorer.java RENAME test_move=>void t
 RefactoringAction 1497005601226 TestPlanetExplorer.java RENAME test_move_=>void test_move_back_west FIELD
 RefactoringAction 1497005603288 TestPlanetExplorer.java RENAME test_move_back_west=>void test_move_back_west() METHOD
 EditAction 1497005669488 TestPlanetExplorer.java 3507 14 36 14
+UnitTestCaseAction 1497005673468 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497005673469 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1497005739605 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497005739606 TestPlanetExplorer.java FAIL
+EditAction 1497005748171 TestPlanetExplorer.java 3507 14 36 14

@@ -129,7 +129,7 @@ public class TestPlanetExplorer {
 		PlanetExplorer pe = new PlanetExplorer(3,3,null);
 		pe.executeCommand("rrr");
 		
-		assertEquals("", "(0,1,w)", pe.executeCommand("b"));
+		assertEquals("", "(1,0,w)", pe.executeCommand("b"));
 	}
 	
 }
