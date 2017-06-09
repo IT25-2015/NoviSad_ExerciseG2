@@ -338,3 +338,8 @@ RefactoringAction 1497005878998 TestPlanetExplorer.java RENAME test_excc=>void t
 RefactoringAction 1497005915788 TestPlanetExplorer.java REMOVE test_exception FIELD
 RefactoringAction 1497005925324 TestPlanetExplorer.java ADD void test_move_back_north() METHOD
 EditAction 1497005928328 TestPlanetExplorer.java 3507 15 39 15
+UnitTestCaseAction 1497005932056 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497005932059 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1497005968184 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497005968186 TestPlanetExplorer.java FAIL
+EditAction 1497006002617 TestPlanetExplorer.java 3507 15 39 15
