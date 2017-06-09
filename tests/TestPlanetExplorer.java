@@ -112,7 +112,7 @@ public class TestPlanetExplorer {
 		pe.setRoverX(1);
 		pe.executeCommand("ll");
 		
-		assertEquals("", "(1,0,e)", pe.executeCommand("b"));
+		assertEquals("", "(0,1,e)", pe.executeCommand("b"));
 	}
 	
 }

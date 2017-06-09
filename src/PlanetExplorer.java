@@ -77,7 +77,11 @@ public class PlanetExplorer {
 				roverX = x;
 			else 
 				roverX--;
-		}
+		}else if(direction.equals("s"))
+			if(roverY == 0)
+				roverY = y;
+			else 
+				roverY++;
 	}
 
 	public void rotate(char i){
