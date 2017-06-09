@@ -119,7 +119,7 @@ public class TestPlanetExplorer {
 	public void test_move_forth_west() throws PlanetExplorerException{
 		PlanetExplorer pe = new PlanetExplorer(3,3,null);
 		pe.executeCommand("l");
-		pe.setRoverY(1);
+		pe.setRoverX(1);
 		
 		assertEquals("", "(0,0,w)", pe.executeCommand("f"));
 	}
