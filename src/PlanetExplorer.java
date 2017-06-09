@@ -4,6 +4,13 @@
 // Student ID: IT25/2015
 
 public class PlanetExplorer {
+	
+	private int x;
+	private int y;
+	private int roverX = 0;
+	private int roverY = 0;
+	private String obstacles;
+	private String direction;
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
@@ -12,10 +19,19 @@ public class PlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  
 		 
 	 */
+		this.x =x;
+		this.y = y;
+		this.obstacles = obstacles;
+		this.direction = "n";
 	}
 	
 	public String executeCommand(String command){
-		
+		char[] niz = command.toCharArray();
+		for(char i : niz){
+			switch(i){
+			case 'f' : moveForth; break;
+			}
+		}
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
 		 * The explorer is on a 100x100 grid at location (0, 0) and facing NORTH. 
@@ -27,5 +43,14 @@ public class PlanetExplorer {
 		 */
 		
 		return null;
+	}
+	
+	public void moveForth(){
+		if(direction.equals("n")){
+			if(roverY == y)
+				roverY = 0;
+			else 
+				roverY++;
+		}
 	}
 }
