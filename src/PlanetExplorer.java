@@ -59,10 +59,11 @@ public class PlanetExplorer {
 	
 	public void moveBack(){
 		if(direction.equals("n")){
-			if(roverY == 0)
-				roverY = y;
-			else
-				roverY--;
+				if(direction.equals("n"))
+					if(roverY == 0)
+						roverY = y;
+					else
+						roverY--;
 		}
 	}
 
