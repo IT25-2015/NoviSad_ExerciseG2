@@ -85,6 +85,6 @@ public class TestPlanetExplorer {
 		PlanetExplorer pe = new PlanetExplorer(3,3,null);
 		pe.executeCommand("r");
 		
-		assertEquals("", "(1,0,n)", pe.executeCommand("f"));
+		assertEquals("", "(1,0,e)", pe.executeCommand("f"));
 	}
 }
