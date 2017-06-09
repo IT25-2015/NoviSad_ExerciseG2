@@ -78,7 +78,7 @@ public class PlanetExplorer {
 			else 
 				roverX--;
 		}else if(direction.equals("s"))
-			if(roverY == 0)
+			if(roverX == 0)
 				roverY = y;
 			else 
 				roverY++;
