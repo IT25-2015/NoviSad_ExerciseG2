@@ -59,8 +59,8 @@ public class PlanetExplorer {
 				roverX = 0;
 			else roverX++;
 		}else if(direction.equals("s")){
-			if(roverY == y)
-				roverY = 0;
+			if(roverY == 0)
+				roverY = y;
 			else 
 				roverY--;
 		}
