@@ -100,8 +100,9 @@ public class TestPlanetExplorer {
 	@Test
 	public void test_move_forth_south() throws PlanetExplorerException{
 		PlanetExplorer pe = new PlanetExplorer(3,3,null);
+		pe.setRoverY(1);
 		pe.executeCommand("rr");
 		
-		assertEquals("", "(1,0,s)", pe.executeCommand("f"));
+		assertEquals("", "(0,0,s)", pe.executeCommand("f"));
 	}
 }
