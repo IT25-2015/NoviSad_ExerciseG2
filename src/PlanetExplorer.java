@@ -29,7 +29,7 @@ public class PlanetExplorer {
 		char[] niz = command.toCharArray();
 		for(char i : niz){
 			switch(i){
-			case 'f' : moveForth; break;
+			case 'f' : moveForth(); break;
 			}
 		}
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
