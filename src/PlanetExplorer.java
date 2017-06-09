@@ -33,6 +33,7 @@ public class PlanetExplorer {
 			case 'b' : moveBack(); break;
 			case 'r' : rotate(i);break;
 			case 'l' : rotate(i);break;
+			default : throw new PlanetExplorerException();
 			}
 		}
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)

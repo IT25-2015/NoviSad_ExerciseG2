@@ -138,4 +138,10 @@ public class TestPlanetExplorer {
 		pe.executeCommand("k");
 	}
 	
+	@Test(expected = PlanetExplorerException.class)
+	public void test_exception_with_number() throws PlanetExplorerException{
+		PlanetExplorer pe = new PlanetExplorer(3,3,null);
+		pe.executeCommand("2");
+	}
+	
 }

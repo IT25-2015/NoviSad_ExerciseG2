@@ -355,3 +355,12 @@ UnitTestCaseAction 1497006104703 TestPlanetExplorer.java OK
 UnitTestSessionAction 1497006104705 TestPlanetExplorer.java OK
 RefactoringAction 1497006339447 TestPlanetExplorer.java ADD void test_exception() METHOD
 EditAction 1497006373548 TestPlanetExplorer.java 3693 17 45 16
+UnitTestCaseAction 1497006381387 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497006381389 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1497006443462 TestPlanetExplorer.java OK
+UnitTestSessionAction 1497006443464 TestPlanetExplorer.java OK
+RefactoringAction 1497006464363 TestPlanetExplorer.java ADD void test_exception()/2 METHOD
+RefactoringAction 1497006471915 TestPlanetExplorer.java RENAME test_exception()/2=>void test_exception_() METHOD
+RefactoringAction 1497006474467 TestPlanetExplorer.java RENAME test_exception_()=>void test_exception_with() METHOD
+RefactoringAction 1497006475511 TestPlanetExplorer.java RENAME test_exception_with()=>void test_exception_with FIELD
+EditAction 1497006485101 TestPlanetExplorer.java 3899 18 47 16
