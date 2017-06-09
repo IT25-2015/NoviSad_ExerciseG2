@@ -76,3 +76,6 @@ CompilationAction 1497003086080 TestPlanetExplorer.java
 RefactoringAction 1497003110972 PlanetExplorer.java ADD void setRoverY(int)/2 METHOD
 RefactoringAction 1497003123734 PlanetExplorer.java REMOVE setRoverY(int)/2 METHOD
 EditAction 1497003124875 PlanetExplorer.java 2205 8 13 0
+UnitTestCaseAction 1497003131100 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497003131101 TestPlanetExplorer.java FAIL
+EditAction 1497003144792 PlanetExplorer.java 2205 8 13 0
