@@ -45,4 +45,12 @@ public class TestPlanetExplorer {
 		assertEquals("", "(0,0,s)", pe.executeCommand("ll"));
 	}
 	
+	@Test
+	public void test_rotate_3x_left() throws PlanetExplorerException{
+		PlanetExplorer pe = new PlanetExplorer(3,3,null);
+		
+		assertEquals("", "(0,0,e)", pe.executeCommand("lll"));
+	}
+	
+	
 }
